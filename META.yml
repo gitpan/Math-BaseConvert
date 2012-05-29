@@ -1,0 +1,27 @@
+---
+abstract: 'fast functions to CoNVert between number Bases'
+author:
+  - 'Pip Stuart <Pip@CPAN.Org>'
+build_requires: {}
+configure_requires:
+  Module::Build: 0.4
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4, CPAN::Meta::Converter version 2.120921'
+license: open_source
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Math-BaseConvert
+provides:
+  Math::BaseConvert:
+    file: lib/Math/BaseConvert.pm
+    version: 1.7
+requires:
+  Math::BigInt: 0
+  Memoize: 0
+  Test: 0
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
+resources:
+  license: http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt
+version: 1.7
